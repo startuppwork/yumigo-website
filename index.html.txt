@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yumigo | Find Your Tribe</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">Yumigo</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#groups">Groups</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Find Your Tribe, <span>Join Your Vibe</span></h1>
+      <p>Connect with college students who share your interests.</p>
+      <a href="#groups" class="btn">Explore Groups</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Yumigo</h2>
+      <p>Yumigo helps you find your ideal friend group—whether you want to chill, learn, travel, or explore niche interests together.</p>
+      <div class="features">
+        <div class="feature">
+          <i class="fas fa-comments"></i>
+          <h3>ChillFill</h3>
+          <p>For gossip and casual hangs.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-book"></i>
+          <h3>SkillHub</h3>
+          <p>Learn and grow together.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-plane"></i>
+          <h3>TripTribe</h3>
+          <p>Plan adventures.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Groups Section -->
+  <section id="groups" class="section">
+    <div class="container">
+      <h2>Join a Group</h2>
+      <div class="group-cards">
+        <div class="card">
+          <h3>ChillFill</h3>
+          <p>₹100</p>
+          <a href="#" class="btn">Sign Up</a>
+        </div>
+        <div class="card">
+          <h3>SkillHub</h3>
+          <p>₹100</p>
+          <a href="#" class="btn">Sign Up</a>
+        </div>
+        <div class="card">
+          <h3>TripTribe</h3>
+          <p>₹100</p>
+          <a href="#" class="btn">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section id="reviews" class="section">
+    <div class="container">
+      <h2>Why Students Love Us</h2>
+      <div class="reviews">
+        <div class="review">
+          <p>"Found my travel buddies through Yumigo!"</p>
+          <h4>- Riya, Delhi University</h4>
+        </div>
+        <div class="review">
+          <p>"SkillHub helped me learn coding faster."</p>
+          <h4>- Arjun, IIT Bombay</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-links">
+          <a href="#" id="terms-link">Terms & Conditions</a>
+          <a href="#" id="privacy-link">Privacy Policy</a>
+        </div>
+        <div class="social">
+          <a href="https://instagram.com/yourhandle"><i class="fab fa-instagram"></i></a>
+          <a href="https://linkedin.com/yourhandle"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Terms Modal -->
+  <div id="terms-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Terms & Conditions</h2>
+      <p>Add your terms here...</p>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
